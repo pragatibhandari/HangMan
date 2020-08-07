@@ -1,0 +1,217 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    padding: 10px; 
+}
+.heading{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin:10px 0px;
+}
+#score{
+    color:green;
+    font-weight: 900;
+    font-size: 20px;
+}
+#mistakes{
+    color:rgb(250, 6, 6);
+    font-weight: 900;
+    font-size: 20px;
+}
+.container h1{
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: 700;
+    margin-top:20px;
+}
+.container p{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+#wordSpotlight{
+    color: rgb(243, 7, 7);
+    //background: white;
+    font-size: 30px;
+}
+#one{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+#keyboard{
+    background: rgb(75, 83, 83);
+    padding: 2px 2px 10px 2px;
+    color: rgba(209, 22, 22, 0.973);
+    font-weight: bolder;
+    font-size: 30px;
+    border-radius: 10px;
+    
+}
+#hangmanPic{
+    width: 200px;
+    height: 180px; 
+    border-radius: 10px;
+    border: 5px solid rgb(0, 0, 0);
+    margin-top: 5px;
+}
+.btn{
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    font-size: 15px;
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+}
+.btn:hover{
+        color: rgb(255, 255, 255);
+        background: rgb(3, 115, 243);
+        border: 1px solid  rgb(28, 113, 182);
+}
+.resetbtn{
+        color: rgb(255, 255, 255);
+        background: rgb(0, 0, 0);
+        border: 4px solid rgb(0, 0, 0);
+        font-size: 20px;
+        border-radius: 5px;
+        padding: 0px 10px;
+        margin-top:10px;
+        margin-bottom: 10px;
+}
+.resetbtn:hover{
+        color: rgb(0, 0, 0);
+        border: 4px solid  rgb(0, 0, 0);
+        background: rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 320px) {
+    
+    .container h1{
+        margin-top:6px;
+    }
+    
+    #hangmanPic{
+        width: 220px;
+        height: 150px;
+        margin-top: 10px;
+    }
+    .btn{
+        width: 20px;
+        height: 27px;
+    }
+    #keyboard{
+        padding: 2px 2px;
+        font-weight: bolder;
+        font-size: 22px;  
+    }
+    .resetbtn{
+        margin-top:20px;
+        
+    }
+    
+}
+@media only screen and (min-width: 500px) {
+    
+    .heading{
+        font-size: 20px;
+        margin: 10px 50px;
+    }
+    
+}
+
+@media only screen and (min-height: 812px) {
+    
+    #hangmanPic{
+        width: 300px;
+        height: 300px;
+        margin-top: 5px;
+    }
+
+    .resetbtn{
+        margin-top:30px;
+        padding: 10px 30px;
+        
+    }
+}
+@media only screen and (min-height: 736px) {
+    
+    #hangmanPic{
+        width: 300px;
+        height: 280px;
+        margin-top: 5px;
+    }
+
+}
+@media only screen and (min-height: 1024px) {
+    
+    #hangmanPic{
+        width: 500px;
+        height: 370px;
+        margin-top: 5px;
+    }
+    .heading{
+        font-size: 20px;
+        margin: 10px 50px;
+    }
+    #keyboard{
+        margin: 10px 20px;
+        padding: 10px 10px;
+        font-weight: bolder;
+        font-size: 40px;
+    }
+    .btn{
+        width: 40px;
+        height: 40px;
+    }
+    .resetbtn{
+        margin-top:15px;
+        padding: 10px 30px;
+        
+    }
+
+}
+@media only screen and (min-height: 1366px) {
+    
+    .container h1{
+        margin-top:6px;
+        font-size: 35px;
+    }
+    .heading{
+        font-size: 20px;
+        margin: 10px 50px;
+    }
+    #score{
+        font-size: 25px;
+        
+    }
+    #mistakes{
+        font-size: 25px;
+    }
+    #hangmanPic{
+        width: 500px;
+        height: 370px;
+        margin-top: 5px;
+    }
+    
+    #keyboard{
+        margin: 10px 100px;
+        padding: 10px 10px;
+        font-weight: bolder;
+        font-size: 40px;
+    }
+    .btn{
+        width: 40px;
+        height: 40px;
+    }
+    .resetbtn{
+        margin-top:15px;
+        padding: 10px 30px;  
+    }
+}
+

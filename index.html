@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Bootstrap 4 CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel = "stylrsheet" href = "https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js">
+  <link rel ="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <title>Hangman</title>
+  <script src="https://connect.facebook.net/en_US/fbinstant.6.3.js"></script>
+</head>
+
+<body>
+  <div class="container text-center">
+    <h1 class="text-center heading">HANGMAN</h1>
+    <div class = "flex">
+      <div  class="float-left heading score">
+        Score: <span id='score'>0</span>
+      </div>
+      <div class="float-right heading mistakes">
+        Wrong Guesses: <span id='mistakes'>0</span> of <span id='maxWrong'></span>
+      </div>
+    </div>
+    <div class="text-center">
+      <img id='hangmanPic' src="./images/0.jpg" alt="">
+      <p class="heading">Guess the following Word:</p>
+      <p id="wordSpotlight"></p>
+    <div id="keyboard">
+    </div>
+    <button class="resetbtn" onClick="reset()">Reset</button>
+  </div>
+
+  <script src='./js/hangman.js'></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
