@@ -151,6 +151,9 @@ function reset() {
   updateMistakes();
   updateScore();
   generateButtons();
+  lostSound.pause();
+  hangSound.pause();
+  winSound.pause();
 }
 
 document.getElementById('maxWrong').innerHTML = maxWrong;
