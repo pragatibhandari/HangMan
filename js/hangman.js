@@ -22,7 +22,7 @@ var words = [
 ]
 
 let answer = '';
-let maxWrong = 9;
+let maxWrong = 10;
 let mistakes = 0;
 let guessed = [];
 let wordStatus = null;
